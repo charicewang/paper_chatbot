@@ -42,7 +42,22 @@ function removeTyping() {
 
 async function sendMessage() {
 
-    const text = input.value.trim()
+    const text=input.value.trim()
+if(text==="") return
+
+addMessage(text,"user")
+input.value=""
+
+typingIndicator()
+
+setTimeout(()=>{
+removeTyping()
+addMessage("哈囉","bot")
+},500)
+
+saveHistory()
+
+    /*const text = input.value.trim()
     if (text === "") return
 
     addMessage(text, "user")
@@ -67,7 +82,7 @@ async function sendMessage() {
 
     addMessage(data.reply, "bot")
 
-    saveHistory()
+    saveHistory()*/
 }
 
 input.addEventListener("keydown", function (e) {
