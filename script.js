@@ -42,7 +42,7 @@ function removeTyping() {
 
 async function sendMessage() {
 
-    const text = input.value.trim()
+    /*const text = input.value.trim()
     if (text === "") return
 
     addMessage(text, "user")
@@ -81,9 +81,9 @@ async function sendMessage() {
 `, "bot")
     }, 500)
 
-    saveHistory()
+    saveHistory)*/
 
-    /**const text = input.value.trim()
+    const text = input.value.trim()
     if (text === "") return
 
     addMessage(text, "user")
@@ -108,7 +108,7 @@ async function sendMessage() {
 
     addMessage(data.reply, "bot")
 
-    saveHistory()*/
+    saveHistory()
 
 }
 
