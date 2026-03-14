@@ -52,33 +52,7 @@ async function sendMessage() {
 
     setTimeout(() => {
         removeTyping()
-        addMessage(`這裡幫你挑出五篇關於生成式 AI（Generative AI）的學術論文／學術性報告，涵蓋核心技術、應用與人機互動等不同面向，適合用作研究引用：
-
-1. Generative Artificial Intelligence: A Systematic Review and Applications
-   Authors: S. S. Sengar, A. Bin Hasan, S. Kumar, F. Carroll
-   Year: 2024
-   Summary: 系統性整理了生成式 AI 的最新技術進展、應用範圍與未來趨勢，此文可當作理解生成式 AI 全貌的基礎文獻。
-
-2. An HCI-Centric Survey and Taxonomy of Human‑Generative‑AI Interactions
-   Authors: Jingyu Shi, Rahul Jain, Hyungjun Doh, et al.
-   Year: 2023
-   Summary: 從人機互動（HCI）的觀點出發，分類並分析了人類與生成式 AI 交互的設計維度與挑戰，是理解使用者與生成模型互動的重要 survey。
-
-3. A survey of Generative AI Applications
-   Authors: Roberto Gozalo‑Brizuela & Eduardo C. Garrido‑Merchán
-   Year: 2023
-   Summary: 提供了一份廣泛的生成式 AI 應用概覽，涵蓋文字、圖像、影片等多模態範圍，是了解生成技術現況及跨領域應用的優質參考。
-
-4. Generative Agents: Interactive Simulacra of Human Behavior
-   Authors: Joon Sung Park, Joseph C. O’Brien, et al.
-   Year: 2023
-   Summary: 這篇論文提出「生成式代理人」的架構，將大型語言模型延伸成具行為與記憶的互動智能體，可用於模擬與互動應用研究。
-
-5. ChatGPT in the Age of Generative AI and Large Language Models: A Concise Survey
-   Authors: Salman Mohamadi, Ghulam Mujtaba, et al.
-   Year: 2023
-   Summary: 簡要回顧了生成式 AI 與大型語言模型（LLMs）的演進、原理、應用及挑戰，是一篇結合 ChatGPT 與生成技術的概述文章。
-`, "bot")
+        addMessage("這裡幫你挑出五篇關於生成式 AI（Generative AI）的學術論文／學術性報告，涵蓋核心技術、應用與人機互動等不同面向，適合用作研究引用：", "bot")
     }, 500)
 
     saveHistory()
