@@ -91,7 +91,7 @@ async function sendMessage() {
 
     typingIndicator()
 
-    const res = await fetch("http://localhost:3000/chat", {
+    const res = await fetch("https://my-gpt-api-w3t9.onrender.com", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
